@@ -63,7 +63,7 @@ const Hero = () => {
             toggle ? "flex" : "hidden"
           } absolute top-0 bottom-0 left-0 flex-col items-center w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black/50 backdrop-blur-sm`}
         >
-          <div className="flex flex-col items-center justify-center mx-auto pr-9 gap-5">
+          <div className="flex flex-col items-center justify-center mx-auto pr-8 gap-5">
             <a href="#" className="hover:text-pink-500">
               About
             </a>
