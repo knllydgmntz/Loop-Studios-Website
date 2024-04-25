@@ -61,23 +61,25 @@ const Hero = () => {
           id="menu"
           className={`${
             toggle ? "flex" : "hidden"
-          } absolute top-0 bottom-0 left-0 flex-col items-center w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-[35px] text-white uppercase bg-black/50 backdrop-blur-sm`}
+          } absolute top-0 bottom-0 left-0 flex-col items-center w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black/50 backdrop-blur-sm`}
         >
-          <a href="#" className="hover:text-pink-500">
-            About
-          </a>
-          <a href="#" className="hover:text-pink-500">
-            Careers
-          </a>
-          <a href="#" className="hover:text-pink-500">
-            Events
-          </a>
-          <a href="#" className="hover:text-pink-500">
-            Products
-          </a>
-          <a href="#" className="hover:text-pink-500">
-            Support
-          </a>
+          <div className="flex flex-col items-center justify-center mx-auto pr-10 gap-5">
+            <a href="#" className="hover:text-pink-500">
+              About
+            </a>
+            <a href="#" className="hover:text-pink-500">
+              Careers
+            </a>
+            <a href="#" className="hover:text-pink-500">
+              Events
+            </a>
+            <a href="#" className="hover:text-pink-500">
+              Products
+            </a>
+            <a href="#" className="hover:text-pink-500">
+              Support
+            </a>
+          </div>
         </div>
 
         <div className="max-w-lg mt-32 mb-32 p-4 font-sans text-4xl text-white uppercase border-2 md:p-10 md:m-32 md:mx-0 md:text-6xl">
